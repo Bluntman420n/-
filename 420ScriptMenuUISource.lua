@@ -458,6 +458,11 @@ do
 		end
 	end
 	
+	function library:Distroy()
+		self:Distroy()
+	end
+		
+
 	function library:toggle()
 	
 		if self.toggling then
